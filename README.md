@@ -1,5 +1,5 @@
 # adljack
-OPL3/OPN2 synthesizer using ADLMIDI and OPNMIDI
+OPL3/OPN2 synthesizer using ADLMIDI and OPNMIDI initially made by Jean-Pierre Cimalando.
 
 This is a standalone synthesizer for ADLMIDI and OPNMIDI on the text console.
 It is based on [libADLMIDI](https://github.com/Wohlstand/libADLMIDI) and [libOPNMIDI](https://github.com/Wohlstand/libOPNMIDI).
@@ -80,7 +80,6 @@ which forces it to select ALSA as a sound system instead of PulseAudio.
 ## Change Log
 
 ### Dev
-
 - ability to set initial volume using the option `-v`
 
 ### Version 1.3.1
