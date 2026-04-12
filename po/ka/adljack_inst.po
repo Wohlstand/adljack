@@ -1,0 +1,531 @@
+# Georgian translation for adljack_inst.
+# Copyright (C) 2026 adljack_inst's authors.
+# This file is distributed under the same license as the adljack_inst package.
+# Ekaterine Papava <papava.e@gtu.ge>, 2026.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-05-21 09:55+0200\n"
+"PO-Revision-Date: 2026-04-12 13:08+0200\n"
+"Last-Translator: Ekaterine Papava <papava.e@gtu.ge>\n"
+"Language-Team: Georgian\n"
+"Language: ka\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.9\n"
+
+#: sources/insnames.cc:32
+msgid "Acoustic Grand Piano"
+msgstr "აკუსტიკური დიდი ფორტეპიანო"
+
+#: sources/insnames.cc:33
+msgid "Bright Acoustic Piano"
+msgstr "აკუსტიკური დიდი ფორტეპიანო"
+
+#: sources/insnames.cc:34
+msgid "Electric Grand Piano"
+msgstr "ელექტროროიალი"
+
+#: sources/insnames.cc:35
+msgid "Honky-Tonk Piano"
+msgstr "რკინის ფირფიტებიანი პიანინო"
+
+#: sources/insnames.cc:36
+msgid "Rhodes Piano"
+msgstr "როუდსის პიანინო"
+
+#: sources/insnames.cc:37
+msgid "Chorused Piano"
+msgstr "ქორიანი პიანინო"
+
+#: sources/insnames.cc:38
+msgid "Harpsichord"
+msgstr "კლავესინი"
+
+#: sources/insnames.cc:39
+msgid "Clavinet"
+msgstr "კლავინეტი"
+
+#: sources/insnames.cc:40
+msgid "Celesta"
+msgstr "ჩელესტა"
+
+#: sources/insnames.cc:41
+msgid "Glockenspiel"
+msgstr "გლოკენშპილი"
+
+#: sources/insnames.cc:42
+msgid "Music box"
+msgstr "მუსიკალური ყუთი"
+
+#: sources/insnames.cc:43
+msgid "Vibraphone"
+msgstr "ვიბრაფონი"
+
+#: sources/insnames.cc:44
+msgid "Marimba"
+msgstr "მარიმბა"
+
+#: sources/insnames.cc:45
+msgid "Xylophone"
+msgstr "ქსილოფონი"
+
+#: sources/insnames.cc:46
+msgid "Tubular Bells"
+msgstr "Tubular Bells"
+
+#: sources/insnames.cc:47
+msgid "Dulcimer"
+msgstr "ციმბალი"
+
+#: sources/insnames.cc:48
+msgid "Hammond Organ"
+msgstr "ჰამონდის ორღანი"
+
+#: sources/insnames.cc:49
+msgid "Percussive Organ"
+msgstr "პერკუსიული ორღანი"
+
+#: sources/insnames.cc:50
+msgid "Rock Organ"
+msgstr "როკის ორღანი"
+
+#: sources/insnames.cc:51
+msgid "Church Organ"
+msgstr "საეკლესიო ორღანი"
+
+#: sources/insnames.cc:52
+msgid "Reed Organ"
+msgstr "კლავიშებიანი ორღანი"
+
+#: sources/insnames.cc:53
+msgid "Accordion"
+msgstr "აკორდეონი"
+
+#: sources/insnames.cc:54
+msgid "Harmonica"
+msgstr "ჰარმონიკა"
+
+#: sources/insnames.cc:55
+msgid "Tango Accordion"
+msgstr "ტანგო აკორდეონი"
+
+#: sources/insnames.cc:56
+msgid "Acoustic Guitar (nylon)"
+msgstr "აკუსტიკური გიტარა (ნეილონი)"
+
+#: sources/insnames.cc:57
+msgid "Acoustic Guitar (steel)"
+msgstr "აკუსტიკური გიტარა (ფოლადი)"
+
+#: sources/insnames.cc:58
+msgid "Electric Guitar (jazz)"
+msgstr "ელექტროგიტარა(ჯაზი)"
+
+#: sources/insnames.cc:59
+msgid "Electric Guitar (clean)"
+msgstr "ელექტროგიტარა (წმინდა)"
+
+#: sources/insnames.cc:60
+msgid "Electric Guitar (muted)"
+msgstr "ელექტროგიტარა(დადუმებული)"
+
+#: sources/insnames.cc:61
+msgid "Overdrive Guitar"
+msgstr "ოვერდრაივიანი გიტარა"
+
+#: sources/insnames.cc:62
+msgid "Distortion Guitar"
+msgstr "დისტორშენიანი გიტარა"
+
+#: sources/insnames.cc:63
+msgid "Guitar Harmonics"
+msgstr "გიტარის ჰარმონიკები"
+
+#: sources/insnames.cc:64
+msgid "Acoustic Bass"
+msgstr "აკუსტიკური ბასი"
+
+#: sources/insnames.cc:65
+msgid "Electric Bass (finger)"
+msgstr "ელექტრობასი (თითი)"
+
+#: sources/insnames.cc:66
+msgid "Electric Bass (pick)"
+msgstr "ელექტრო ბასი (ოდნავ)"
+
+#: sources/insnames.cc:67
+msgid "Fretless Bass"
+msgstr "უფეხო ბასი"
+
+#: sources/insnames.cc:68
+msgid "Slap Bass 1"
+msgstr "ბასის სლეპი 1"
+
+#: sources/insnames.cc:69
+msgid "Slap Bass 2"
+msgstr "ბასის სლეპი 2"
+
+#: sources/insnames.cc:70
+msgid "Synth Bass 1"
+msgstr "სინთეზატორის ბასი 1"
+
+#: sources/insnames.cc:71
+msgid "Synth Bass 2"
+msgstr "სინთეზატორის ბასი 2"
+
+#: sources/insnames.cc:72
+msgid "Violin"
+msgstr "ვიოლინო"
+
+#: sources/insnames.cc:73
+msgid "Viola"
+msgstr "ვიოლა"
+
+#: sources/insnames.cc:74
+msgid "Cello"
+msgstr "ჩელო"
+
+#: sources/insnames.cc:75
+msgid "Contrabass"
+msgstr "კონტრაბასი"
+
+#: sources/insnames.cc:76
+msgid "Tremolo Strings"
+msgstr "სიმებიანი ტრემოლო"
+
+#: sources/insnames.cc:77
+msgid "Pizzicato String"
+msgstr "სიმებიანი პიციკატო"
+
+#: sources/insnames.cc:78
+msgid "Orchestral Harp"
+msgstr "ორკესტრის არფა"
+
+#: sources/insnames.cc:79
+msgid "Timpany"
+msgstr "ტიმპანი"
+
+#: sources/insnames.cc:80
+msgid "String Ensemble 1"
+msgstr "სიმებიანი ინსტრუმენტების ანსამბლი 1"
+
+#: sources/insnames.cc:81
+msgid "String Ensemble 2"
+msgstr "სიმებიანი ინსტრუმენტების ანსამბლი 2"
+
+#: sources/insnames.cc:82
+msgid "Synth Strings 1"
+msgstr "სინთეზატორის სიმი 1"
+
+#: sources/insnames.cc:83
+msgid "Synth Strings 2"
+msgstr "სინთეზატორის სიმი 2"
+
+#: sources/insnames.cc:84
+msgid "Choir Aahs"
+msgstr "გუნდის ჩასუნთქვები"
+
+#: sources/insnames.cc:85
+msgid "Voice Oohs"
+msgstr "ხმოვანი ო"
+
+#: sources/insnames.cc:86
+msgid "Synth Voice"
+msgstr "სინთეზირებული ხმა"
+
+#: sources/insnames.cc:87
+msgid "Orchestra Hit"
+msgstr "ორკესტრული აქცენტი"
+
+#: sources/insnames.cc:88
+msgid "Trumpet"
+msgstr "ბუკი"
+
+#: sources/insnames.cc:89
+msgid "Trombone"
+msgstr "ტრომბონი"
+
+#: sources/insnames.cc:90
+msgid "Tuba"
+msgstr "ტუბა"
+
+#: sources/insnames.cc:91
+msgid "Muted Trumpet"
+msgstr "Muted Trumpet"
+
+#: sources/insnames.cc:92
+msgid "French Horn"
+msgstr "ფრანგული საყვირი"
+
+#: sources/insnames.cc:93
+msgid "Brass Section"
+msgstr "სასულე საკრავები"
+
+#: sources/insnames.cc:94
+msgid "Synth Brass 1"
+msgstr "სინთეზატორი თითბერი 1"
+
+#: sources/insnames.cc:95
+msgid "Synth Brass 2"
+msgstr "სინთეზატორი თითბერი 2"
+
+#: sources/insnames.cc:96
+msgid "Soprano Sax"
+msgstr "Soprano Sax"
+
+#: sources/insnames.cc:97
+msgid "Alto Sax"
+msgstr "Alto საქსაფონი"
+
+#: sources/insnames.cc:98
+msgid "Tenor Sax"
+msgstr "ტენორი საქსაფონი"
+
+#: sources/insnames.cc:99
+msgid "Baritone Sax"
+msgstr "ბარიტონი საქსაფონი"
+
+#: sources/insnames.cc:100
+msgid "Oboe"
+msgstr "ობო"
+
+#: sources/insnames.cc:101
+msgid "English Horn"
+msgstr "ინგლისური ქარახსა"
+
+#: sources/insnames.cc:102
+msgid "Bassoon"
+msgstr "ბასუნი"
+
+#: sources/insnames.cc:103
+msgid "Clarinet"
+msgstr "კლარნეტი"
+
+#: sources/insnames.cc:104
+msgid "Piccolo"
+msgstr "პატარა ფლეიტა"
+
+#: sources/insnames.cc:105
+msgid "Flute"
+msgstr "ფლეიტა"
+
+#: sources/insnames.cc:106
+msgid "Recorder"
+msgstr "ჩამწერი"
+
+#: sources/insnames.cc:107
+msgid "Pan Flute"
+msgstr "პანის ფლეიტა"
+
+#: sources/insnames.cc:108
+msgid "Bottle Blow"
+msgstr "ბოთლში ჩაბერვა"
+
+#: sources/insnames.cc:109
+msgid "Shakuhachi"
+msgstr "იაპონური ბამბუკის ფლეიტა"
+
+#: sources/insnames.cc:110
+msgid "Whistle"
+msgstr "სტვენა"
+
+#: sources/insnames.cc:111
+msgid "Ocarina"
+msgstr "ოკარინა"
+
+#: sources/insnames.cc:112
+msgid "Lead 1 (Square)"
+msgstr "ტალღა 1 (კვადრატი)"
+
+#: sources/insnames.cc:113
+msgid "Lead 2 (Sawtooth)"
+msgstr "ტალღა 2 (დაკბილული)"
+
+#: sources/insnames.cc:114
+msgid "Lead 3 (Calliope)"
+msgstr "ტალღა 3 (კალიოპე)"
+
+#: sources/insnames.cc:115
+msgid "Lead 4 (Chiff)"
+msgstr "ტალღა 4 (ძირითადი)"
+
+#: sources/insnames.cc:116
+msgid "Lead 5 (Charang)"
+msgstr "ტალღა 5 (ჩარანგი)"
+
+#: sources/insnames.cc:117
+msgid "Lead 6 (Voice)"
+msgstr "ტალღა 6 (ხმა)"
+
+#: sources/insnames.cc:118
+msgid "Lead 7 (Fifths)"
+msgstr "ტალღა 7 (მეხუთედები)"
+
+#: sources/insnames.cc:119
+msgid "Lead 8 (Lead+Bass)"
+msgstr "ტალღა 8 (ბასი + წამყვანი)"
+
+#: sources/insnames.cc:120
+msgid "Pad 1 (New age)"
+msgstr "საფარი 1 (ნიუ ეიჯი)"
+
+#: sources/insnames.cc:121
+msgid "Pad 2 (Warm)"
+msgstr "საფარი 2 (თბილი)"
+
+#: sources/insnames.cc:122
+msgid "Pad 3 (Polysynth)"
+msgstr "საფარი 3 (მრავალტემბრიანი ყრუ ხმა)"
+
+#: sources/insnames.cc:123
+msgid "Pad 4 (Choir)"
+msgstr "საფარი 4 (ქორო)"
+
+#: sources/insnames.cc:124
+msgid "Pad 5 (Bowed)"
+msgstr "საფარი 5 (სიმებიან-ხემიანი)"
+
+#: sources/insnames.cc:125
+msgid "Pad 6 (Metallic)"
+msgstr "საფარი 6 (ლითონური)"
+
+#: sources/insnames.cc:126
+msgid "Pad 7 (Halo)"
+msgstr "საფარი 7 (ჰალო)"
+
+#: sources/insnames.cc:127
+msgid "Pad 8 (Sweep)"
+msgstr "საფარი 8 (გადაბრუნება)"
+
+#: sources/insnames.cc:128
+msgid "FX 1 (Rain)"
+msgstr "FX 1 (წვიმა)"
+
+#: sources/insnames.cc:129
+msgid "FX 2 (Soundtrack)"
+msgstr "FX 2 (საუნდტრეკი)"
+
+#: sources/insnames.cc:130
+msgid "FX 3 (Crystal)"
+msgstr "FX 3 (კრისტალი)"
+
+#: sources/insnames.cc:131
+msgid "FX 4 (Atmosphere)"
+msgstr "FX 4 (ატმოსფერო)"
+
+#: sources/insnames.cc:132
+msgid "FX 5 (Brightness)"
+msgstr "FX 5 (სიკაშკაშე)"
+
+#: sources/insnames.cc:133
+msgid "FX 6 (Goblins)"
+msgstr "FX 6 (გობლინები)"
+
+#: sources/insnames.cc:134
+msgid "FX 7 (Echoes)"
+msgstr "FX 7 (ექოები)"
+
+#: sources/insnames.cc:135
+msgid "FX 8 (Sci-fi)"
+msgstr "FX 8 (სამეცნიერო-ფანტასტიკა)"
+
+#: sources/insnames.cc:136
+msgid "Sitar"
+msgstr "სიგარი"
+
+#: sources/insnames.cc:137
+msgid "Banjo"
+msgstr "ბანჯო"
+
+#: sources/insnames.cc:138
+msgid "Shamisen"
+msgstr "სიამისენი"
+
+#: sources/insnames.cc:139
+msgid "Koto"
+msgstr "კოტო"
+
+#: sources/insnames.cc:140
+msgid "Kalimba"
+msgstr "კალიმბა"
+
+#: sources/insnames.cc:141
+msgid "Bagpipe"
+msgstr "სტვირი"
+
+#: sources/insnames.cc:142
+msgid "Fiddle"
+msgstr "ვიოლინო"
+
+#: sources/insnames.cc:143
+msgid "Shanai"
+msgstr "სანაი"
+
+#: sources/insnames.cc:144
+msgid "Tinkle Bell"
+msgstr "წკარუნა ზარი"
+
+#: sources/insnames.cc:145
+msgid "Agogo Bells"
+msgstr "აგოგო ზარები"
+
+#: sources/insnames.cc:146
+msgid "Steel Drums"
+msgstr "ლითონის დოლები"
+
+#: sources/insnames.cc:147
+msgid "Woodblock"
+msgstr "გრავიურა"
+
+#: sources/insnames.cc:148
+msgid "Taiko Drum"
+msgstr "დოლი ტაიკო"
+
+#: sources/insnames.cc:149
+msgid "Melodic Tom"
+msgstr "მელოდიური ტომი"
+
+#: sources/insnames.cc:150
+msgid "Synth Drum"
+msgstr "სინთ. დოლი"
+
+#: sources/insnames.cc:151
+msgid "Reverse Cymbal"
+msgstr "რევერსული თეფში"
+
+#: sources/insnames.cc:152
+msgid "Guitar Fret Noise"
+msgstr "გიტარის ფეხის ხმაური"
+
+#: sources/insnames.cc:153
+msgid "Breath Noise"
+msgstr "სუნთქვის ხმა"
+
+#: sources/insnames.cc:154
+msgid "Seashore"
+msgstr "ზღვის სანაპირო"
+
+#: sources/insnames.cc:155
+msgid "Bird Tweet"
+msgstr "ჩიტის ჭიკჭიკი"
+
+#: sources/insnames.cc:156
+msgid "Telephone"
+msgstr "ტელეფონი"
+
+#: sources/insnames.cc:157
+msgid "Helicopter"
+msgstr "ვერტმფრენი"
+
+#: sources/insnames.cc:158
+msgid "Applause/Noise"
+msgstr "ტაში/ხმაური"
+
+#: sources/insnames.cc:159
+msgid "Gunshot"
+msgstr "თოფის გასროლა"

@@ -1,0 +1,274 @@
+# Georgian translation for adljack.
+# Copyright (C) 2026 adljack's authors.
+# This file is distributed under the same license as the adljack package.
+# Ekaterine Papava <papava.e@gtu.ge>, 2026.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: adljack\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-09-04 02:46+0200\n"
+"PO-Revision-Date: 2026-04-10 16:36+0200\n"
+"Last-Translator: Ekaterine Papava <papava.e@gtu.ge>\n"
+"Language-Team: Georgian\n"
+"Language: ka\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.9\n"
+
+#: sources/common.cc:216
+#, c-format
+msgid "%s ready with %u chips.\n"
+msgstr "%s მზადაა %u ჩიპით.\n"
+
+#: sources/common.cc:139
+#, c-format
+msgid "%s version %s\n"
+msgstr "%s ვერსია %s\n"
+
+#: sources/tui.cc:359
+msgid "(default)"
+msgstr "(ნაგულისხმევი)"
+
+#: sources/winmm_dialog.cc:17
+msgid "ADLrt for Windows"
+msgstr "ADLrt Windows-ისთვის"
+
+#: sources/common.cc:80
+#, c-format
+msgid "Available emulators for %s:\n"
+msgstr "ხელმისაწვდომი ემულატორები %s-ისთვის:\n"
+
+#: sources/common.cc:72
+msgid "Available players:"
+msgstr "ხელმისაწვდომი დამკვრელები:"
+
+#: sources/tui.cc:354
+msgid "Bank"
+msgstr "ბანკი"
+
+#: sources/tui.cc:137
+msgid "Bank has changed on disk. Reload!"
+msgstr "ბანკი დისკზე შეიცვალა. ჩატვირთეთ თავიდან!"
+
+#: sources/tui.cc:139
+msgid "Bank has changed on disk. Reloading failed."
+msgstr "ბანკი დისკზე შეიცვალა. თავიდან ჩატვირთვა ჩავარდა."
+
+#: sources/tui.cc:652
+msgid "Bank loaded!"
+msgstr "ბანკი ჩაიტვირთა!"
+
+#: sources/tui.cc:348
+msgid "CPU"
+msgstr "პროცესორი"
+
+#: sources/winmm_dialog.cc:20
+msgid "Cancel"
+msgstr "გაუქმება"
+
+#: sources/tui.cc:334
+msgid "Chips"
+msgstr "ჩიპები"
+
+#: sources/common.cc:201
+#, c-format
+msgid "DC filter @ %f Hz, LV monitor @ %f ms\n"
+msgstr "DC ფილტრი @ %f ჰც, LV მონიტორი @ %f მწმ\n"
+
+#: sources/rtmain.cc:110
+#, c-format
+msgid "Desired latency %f ms = buffer size %u\n"
+msgstr "სასურველი დაყოვნება %f მწმ = ბუფერის ზომა %u\n"
+
+#: sources/tui_fileselect.cc:172
+#, c-format
+msgid "Directory: %s"
+msgstr "საქაღალდე: %s"
+
+#: sources/tui.cc:324
+msgid "Emulator"
+msgstr "ემულატორი"
+
+#: sources/common.cc:151
+msgid "Error instantiating player."
+msgstr "დამკვრელის წარმოდგენის შეცდომა."
+
+#: sources/common.cc:189
+msgid "Error loading bank file."
+msgstr "ბანკის ფაილის ჩატვირთვის შეცდომა."
+
+#: sources/tui.cc:657
+msgid "Error loading the bank file."
+msgstr "ბანკის ფაილის ჩატვირთვის შეცდომა."
+
+#: sources/common.cc:143
+msgid "Error locking memory."
+msgstr "მეხსიერების დაბლოკვის შეცდომა."
+
+#: sources/common.cc:178
+msgid "Error selecting emulator."
+msgstr "ემულატორის არჩევის შეცდომა."
+
+#: sources/common.cc:157
+msgid "Error setting default bank."
+msgstr "ნაგულისხმევი ბანკის დაყენების შეცდომა."
+
+#: sources/common.cc:197
+msgid "Error setting the number of chips."
+msgstr "ჩიპების რაოდენობის დაყენების შეცდომა."
+
+#: sources/common.cc:471
+msgid "Interrupted."
+msgstr "შეწყვეტილია."
+
+#: sources/rtmain.cc:250
+#, c-format
+msgid "Invalid MIDI system '%s'.\n"
+msgstr "არასწორი MIDI სისტემა '%s'.\n"
+
+#: sources/rtmain.cc:242
+#, c-format
+msgid "Invalid audio system '%s'.\n"
+msgstr "არასწორი აუდიოსისტემა '%s'.\n"
+
+#: sources/rtmain.cc:234
+msgid "Invalid latency."
+msgstr "არასწორი დაყოვნება."
+
+#: sources/common.cc:108
+msgid "Invalid number of chips."
+msgstr "არასწორი ჩიპების რაოდენობა."
+
+#: sources/common.cc:101
+msgid "Invalid player name."
+msgstr "არასწორი დამკვრელის სახელი."
+
+#: sources/tui.cc:378
+msgid "Left"
+msgstr "მარცხენა"
+
+#: sources/tui.cc:619
+msgid "Load bank"
+msgstr "ბანკის ჩატვირთვა"
+
+#: sources/winmm_dialog.cc:28
+msgid "New virtual MIDI port"
+msgstr "ახალი ვირტუალური MIDI პორტი"
+
+#: sources/rtmain.cc:90
+msgid "No audio devices are present for output."
+msgstr "გამოტანისთვის აუდიომოწყობილობები არ არსებობს."
+
+#: sources/winmm_dialog.cc:19
+msgid "OK"
+msgstr "დიახ"
+
+#: sources/tui.cc:447
+msgid "Percussion"
+msgstr "პერკუსია"
+
+#: sources/tui.cc:314
+msgid "Player"
+msgstr "დამკვრელი"
+
+#: sources/tui.cc:116
+msgid "Ready!"
+msgstr "მზადაა!"
+
+#: sources/tui.cc:378
+msgid "Right"
+msgstr "მარჯვენა"
+
+#: sources/rtmain.cc:158
+#, c-format
+msgid "RtAudio client \"%s\" fs=%u bs=%u latency=%f\n"
+msgstr "RtAudio კლიენტი \"%s\" fs=%u bs=%u დაყოვნება=%f\n"
+
+#: sources/winmm_dialog.cc:18
+msgid "Select a MIDI input device from the list:"
+msgstr "აირჩიეთ MIDI შეყვანის მოწყობილობა სიიდან:"
+
+#: sources/common.cc:171
+msgid "The given emulator does not exist."
+msgstr "მითითებული ემულატორი არ არსებობს."
+
+#: sources/common.cc:64
+#, c-format
+msgid ""
+"Usage:\n"
+"    %s [-p player] [-n num-chips] [-b bank.wopl] [-e emulator] [-a]"
+msgstr ""
+"გამოყენება:\n"
+"    %s [-p დამკვრელი] [-n ჩიპების რ-ბა] [-b bank.wopl] [-e ემულატორი] [-a]"
+
+#: sources/common.cc:192
+msgid "Using banks from WOPL file."
+msgstr "ბანკების გამოყენება WOPL ფაილიდან."
+
+#: sources/common.cc:185
+msgid "Using default banks."
+msgstr "ნაგულისხმევი ბანკების გამოყენება."
+
+#: sources/common.cc:182
+#, c-format
+msgid "Using emulator \"%s\"\n"
+msgstr "გამოიყენება ემულატორი \"%s\"\n"
+
+#: sources/tui.cc:385
+msgid "Volume"
+msgstr "ხმის სიმაღლე"
+
+#: sources/rtmain.cc:207
+msgid "[-A audio-system]"
+msgstr "[-A აუდიოსისტემა]"
+
+#: sources/rtmain.cc:204
+msgid "[-L latency-ms]"
+msgstr "[-L დაყოვნება-მწმ]"
+
+#: sources/rtmain.cc:212
+msgid "[-M midi-system]"
+msgstr "[-M midi-სისტემა]"
+
+#: sources/tui.cc:533
+msgid "channels"
+msgstr "არხები"
+
+#: sources/tui.cc:510
+msgid "chips +1"
+msgstr "ჩიპები +1"
+
+#: sources/tui.cc:509
+msgid "chips -1"
+msgstr "ჩიპები -1"
+
+#: sources/tui.cc:511
+msgid "load bank"
+msgstr "ბანკის ჩატვირთვა"
+
+#: sources/tui.cc:508
+msgid "next emulator"
+msgstr "შემდეგი ემულატორი"
+
+#: sources/tui.cc:532
+msgid "panic"
+msgstr "პანიკა"
+
+#: sources/tui.cc:507
+msgid "prev emulator"
+msgstr "წინა ემულატორი"
+
+#: sources/tui.cc:534
+msgid "quit"
+msgstr "გასვლა"
+
+#: sources/tui.cc:531
+msgid "volume +1"
+msgstr "ხმა +1"
+
+#: sources/tui.cc:530
+msgid "volume -1"
+msgstr "ხმა -1"

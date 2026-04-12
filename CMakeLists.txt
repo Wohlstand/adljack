@@ -336,7 +336,7 @@ endif()
 
 ## Translations
 if(ENABLE_GETTEXT)
-  set(TRANSLATIONS "fr")
+  set(TRANSLATIONS "fr ka")
   foreach(translation ${TRANSLATIONS})
     gettext_process_po_files("${translation}" ALL INSTALL_DESTINATION "share/locale" PO_FILES
       "po/${translation}/adljack.po"
