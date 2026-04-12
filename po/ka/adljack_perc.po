@@ -1,0 +1,519 @@
+# Georgian translation for adljack_perc.
+# Copyright (C) 2026 adljack_perc's authors.
+# This file is distributed under the same license as the adljack_perc package.
+# Ekaterine Papava <papava.e@gtu.ge>, 2026.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-05-21 09:55+0200\n"
+"PO-Revision-Date: 2026-04-12 13:37+0200\n"
+"Last-Translator: Ekaterine Papava <papava.e@gtu.ge>\n"
+"Language-Team: Georgian\n"
+"Language: ka\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.9\n"
+
+#: sources/insnames.cc:164
+msgid "<Reserved 0>"
+msgstr "<რეზერვირებული 0>"
+
+#: sources/insnames.cc:165
+msgid "<Reserved 1>"
+msgstr "<რეზერვირებული 1>"
+
+#: sources/insnames.cc:166
+msgid "<Reserved 2>"
+msgstr "<რეზერვირებული 2>"
+
+#: sources/insnames.cc:167
+msgid "<Reserved 3>"
+msgstr "<რეზერვირებული 3>"
+
+#: sources/insnames.cc:168
+msgid "<Reserved 4>"
+msgstr "<რეზერვირებული 4>"
+
+#: sources/insnames.cc:169
+msgid "<Reserved 5>"
+msgstr "<რეზერვირებული 5>"
+
+#: sources/insnames.cc:170
+msgid "<Reserved 6>"
+msgstr "<რეზერვირებული 6>"
+
+#: sources/insnames.cc:171
+msgid "<Reserved 7>"
+msgstr "<რეზერვირებული 7>"
+
+#: sources/insnames.cc:172
+msgid "<Reserved 8>"
+msgstr "<რეზერვირებული 8>"
+
+#: sources/insnames.cc:173
+msgid "<Reserved 9>"
+msgstr "<რეზერვირებული 9>"
+
+#: sources/insnames.cc:174
+msgid "<Reserved 10>"
+msgstr "<რეზერვირებული 10>"
+
+#: sources/insnames.cc:175
+msgid "<Reserved 11>"
+msgstr "<რეზერვირებული 11>"
+
+#: sources/insnames.cc:176
+msgid "<Reserved 12>"
+msgstr "<რეზერვირებული 12>"
+
+#: sources/insnames.cc:177
+msgid "Surdo Mute"
+msgstr "დადუმებული სურდო"
+
+#: sources/insnames.cc:178
+msgid "Surdo Open"
+msgstr "ღია სურდო"
+
+#: sources/insnames.cc:179 sources/insnames.cc:191
+msgid "High Q"
+msgstr "მაღალი Q"
+
+#: sources/insnames.cc:180
+msgid "Whip Slap"
+msgstr "შოლტის ტკაცუნი"
+
+#. (XG) Brush Swirl H
+#: sources/insnames.cc:181 sources/insnames.cc:193
+msgid "Scratch Push"
+msgstr ""
+
+#. (XG) Snare Roll
+#: sources/insnames.cc:182 sources/insnames.cc:194
+msgid "Scratch Pull"
+msgstr ""
+
+#: sources/insnames.cc:183
+msgid "Finger Snap"
+msgstr "თითის გატკაცუნება"
+
+#: sources/insnames.cc:184
+msgid "Click Noise"
+msgstr "წკაპუნის ხმა"
+
+#. (XG) Sticks
+#: sources/insnames.cc:185 sources/insnames.cc:197
+msgid "Metronome Click"
+msgstr "მეტრონომის წკაპუნი"
+
+#. (XG) Bass Drum L
+#: sources/insnames.cc:186 sources/insnames.cc:198
+msgid "Metronome Bell"
+msgstr "მეტრონომის ზარი"
+
+#: sources/insnames.cc:187
+msgid "Seq Click L"
+msgstr ""
+
+#: sources/insnames.cc:188
+msgid "Seq Click H"
+msgstr ""
+
+#: sources/insnames.cc:189
+msgid "Brush Tap"
+msgstr "ფუნჯის დატყაპუნება"
+
+#: sources/insnames.cc:190
+msgid "Brush Swirl L"
+msgstr "ფუნჯით მორევა მარცხ"
+
+#. (XG) Brush Slap
+#: sources/insnames.cc:192
+msgid "Slap"
+msgstr "გალაწუნება"
+
+#. (XG) Castanet
+#: sources/insnames.cc:195
+msgid "Sticks"
+msgstr "ჯოხები"
+
+#. (XG) Snare L
+#: sources/insnames.cc:196
+msgid "Square Click"
+msgstr ""
+
+#. (XG) Open Rim Shot
+#: sources/insnames.cc:199
+msgid "Acoustic Bass Drum"
+msgstr "აკუსტიკური ბას-დრამი"
+
+#: sources/insnames.cc:200
+msgid "Bass Drum 1"
+msgstr "ბას-დრამი 1"
+
+#: sources/insnames.cc:201
+msgid "Side Stick"
+msgstr ""
+
+#: sources/insnames.cc:202
+msgid "Acoustic Snare"
+msgstr "აკუსტიკური დოლი"
+
+#: sources/insnames.cc:203
+msgid "Hand Clap"
+msgstr "ტაშის დაკვრა"
+
+#: sources/insnames.cc:204
+msgid "Electric Snare"
+msgstr "ელექტროდოლი"
+
+#: sources/insnames.cc:205
+msgid "Low Floor Tom"
+msgstr ""
+
+#: sources/insnames.cc:206
+msgid "Closed High Hat"
+msgstr ""
+
+#: sources/insnames.cc:207
+msgid "High Floor Tom"
+msgstr ""
+
+#: sources/insnames.cc:208
+msgid "Pedal High Hat"
+msgstr ""
+
+#: sources/insnames.cc:209
+msgid "Low Tom"
+msgstr ""
+
+#: sources/insnames.cc:210
+msgid "Open High Hat"
+msgstr ""
+
+#: sources/insnames.cc:211
+msgid "Low-Mid Tom"
+msgstr ""
+
+#: sources/insnames.cc:212
+msgid "High-Mid Tom"
+msgstr ""
+
+#: sources/insnames.cc:213
+msgid "Crash Cymbal 1"
+msgstr "დასარტყამი თეფში 1"
+
+#: sources/insnames.cc:214
+msgid "High Tom"
+msgstr ""
+
+#: sources/insnames.cc:215
+msgid "Ride Cymbal 1"
+msgstr ""
+
+#: sources/insnames.cc:216
+msgid "Chinese Cymbal"
+msgstr "ჩინური თეფში"
+
+#: sources/insnames.cc:217
+msgid "Ride Bell"
+msgstr ""
+
+#: sources/insnames.cc:218
+msgid "Tambourine"
+msgstr "დაირა"
+
+#: sources/insnames.cc:219
+msgid "Splash Cymbal"
+msgstr ""
+
+#: sources/insnames.cc:220
+msgid "Cow Bell"
+msgstr "კოვბელი"
+
+#: sources/insnames.cc:221
+msgid "Crash Cymbal 2"
+msgstr ""
+
+#: sources/insnames.cc:222
+msgid "Vibraslap"
+msgstr ""
+
+#: sources/insnames.cc:223
+msgid "Ride Cymbal 2"
+msgstr ""
+
+#: sources/insnames.cc:224
+msgid "High Bongo"
+msgstr "მაღალი ბონგო"
+
+#: sources/insnames.cc:225
+msgid "Low Bongo"
+msgstr "დაბალი ბონგო"
+
+#: sources/insnames.cc:226
+msgid "Mute High Conga"
+msgstr "დადუმებული მაღალი კონგა"
+
+#: sources/insnames.cc:227
+msgid "Open High Conga"
+msgstr "ღია მაღალი კონგა"
+
+#: sources/insnames.cc:228
+msgid "Low Conga"
+msgstr "დაბალი კონნგა"
+
+#: sources/insnames.cc:229
+msgid "High Timbale"
+msgstr "მაღალი ტიმბალი"
+
+#: sources/insnames.cc:230
+msgid "Low Timbale"
+msgstr "დაბალი ტიმბალი"
+
+#: sources/insnames.cc:231
+msgid "High Agogo"
+msgstr "მაღალი აგოგო"
+
+#: sources/insnames.cc:232
+msgid "Low Agogo"
+msgstr "დაბალი აგოგო"
+
+#: sources/insnames.cc:233
+msgid "Cabasa"
+msgstr "კაბასა"
+
+#: sources/insnames.cc:234
+msgid "Maracas"
+msgstr "მარაკები"
+
+#: sources/insnames.cc:235
+msgid "Short Whistle"
+msgstr "მოკლე სტვენა"
+
+#: sources/insnames.cc:236
+msgid "Long Whistle"
+msgstr "გრძელი სტვენა"
+
+#: sources/insnames.cc:237
+msgid "Short Guiro"
+msgstr "მოკლე პერკუსია"
+
+#: sources/insnames.cc:238
+msgid "Long Guiro"
+msgstr "გრძელი პერკუსია"
+
+#: sources/insnames.cc:239
+msgid "Claves"
+msgstr "კლავესები"
+
+#: sources/insnames.cc:240
+msgid "High Wood Block"
+msgstr ""
+
+#: sources/insnames.cc:241
+msgid "Low Wood Block"
+msgstr "დაბალი ის ბლოკი"
+
+#: sources/insnames.cc:242
+msgid "Mute Cuica"
+msgstr "კუიკას დადუმება"
+
+#: sources/insnames.cc:243
+msgid "Open Cuica"
+msgstr "ღია კუიკა"
+
+#: sources/insnames.cc:244
+msgid "Mute Triangle"
+msgstr "სამკუთხედის დადუმება"
+
+#: sources/insnames.cc:245
+msgid "Open Triangle"
+msgstr "სამკუთხედის გახსნა"
+
+#: sources/insnames.cc:246
+msgid "Shaker"
+msgstr "შეიკერი"
+
+#: sources/insnames.cc:247
+msgid "Jingle Bell"
+msgstr "წკარუნა ზარი"
+
+#: sources/insnames.cc:248
+msgid "Bell Tree"
+msgstr "ზარის ხე"
+
+#: sources/insnames.cc:249
+msgid "Castanets"
+msgstr "კასტანიეტები"
+
+#: sources/insnames.cc:250
+msgid "Mute Surdu"
+msgstr "სურდუს დადუმება"
+
+#: sources/insnames.cc:251
+msgid "Open Surdu"
+msgstr "ღია სურდუ"
+
+#: sources/insnames.cc:252
+msgid "<Reserved 88>"
+msgstr "<რეზერვირებული 88>"
+
+#: sources/insnames.cc:253
+msgid "<Reserved 89>"
+msgstr "<რეზერვირებული 89>"
+
+#: sources/insnames.cc:254
+msgid "<Reserved 90>"
+msgstr "<რეზერვირებული 90>"
+
+#: sources/insnames.cc:255
+msgid "<Reserved 91>"
+msgstr "<რეზერვირებული 91>"
+
+#: sources/insnames.cc:256
+msgid "<Reserved 92>"
+msgstr "<რეზერვირებული 92>"
+
+#: sources/insnames.cc:257
+msgid "<Reserved 93>"
+msgstr "<რეზერვირებული 93>"
+
+#: sources/insnames.cc:258
+msgid "<Reserved 94>"
+msgstr "<რეზერვირებული 94>"
+
+#: sources/insnames.cc:259
+msgid "<Reserved 95>"
+msgstr "<რეზერვირებული 95>"
+
+#: sources/insnames.cc:260
+msgid "<Reserved 96>"
+msgstr "<რეზერვირებული 96>"
+
+#: sources/insnames.cc:261
+msgid "<Reserved 97>"
+msgstr "<რეზერვირებული 97>"
+
+#: sources/insnames.cc:262
+msgid "<Reserved 98>"
+msgstr "<რეზერვირებული 98>"
+
+#: sources/insnames.cc:263
+msgid "<Reserved 99>"
+msgstr "<რეზერვირებული 99>"
+
+#: sources/insnames.cc:264
+msgid "<Reserved 100>"
+msgstr "<რეზერვირებული 100>"
+
+#: sources/insnames.cc:265
+msgid "<Reserved 101>"
+msgstr "<რეზერვირებული 101>"
+
+#: sources/insnames.cc:266
+msgid "<Reserved 102>"
+msgstr "<რეზერვირებული 102>"
+
+#: sources/insnames.cc:267
+msgid "<Reserved 103>"
+msgstr "<რეზერვირებული 103>"
+
+#: sources/insnames.cc:268
+msgid "<Reserved 104>"
+msgstr "<რეზერვირებული 104>"
+
+#: sources/insnames.cc:269
+msgid "<Reserved 105>"
+msgstr "<რეზერვირებული 105>"
+
+#: sources/insnames.cc:270
+msgid "<Reserved 106>"
+msgstr "<რეზერვირებული 106>"
+
+#: sources/insnames.cc:271
+msgid "<Reserved 107>"
+msgstr "<რეზერვირებული 107>"
+
+#: sources/insnames.cc:272
+msgid "<Reserved 108>"
+msgstr "<რეზერვირებული 108>"
+
+#: sources/insnames.cc:273
+msgid "<Reserved 109>"
+msgstr "<რეზერვირებული 109>"
+
+#: sources/insnames.cc:274
+msgid "<Reserved 110>"
+msgstr "<რეზერვირებული 110>"
+
+#: sources/insnames.cc:275
+msgid "<Reserved 111>"
+msgstr "<რეზერვირებული 111>"
+
+#: sources/insnames.cc:276
+msgid "<Reserved 112>"
+msgstr "<რეზერვირებული 112>"
+
+#: sources/insnames.cc:277
+msgid "<Reserved 113>"
+msgstr "<რეზერვირებული 113>"
+
+#: sources/insnames.cc:278
+msgid "<Reserved 114>"
+msgstr "<რეზერვირებული 114>"
+
+#: sources/insnames.cc:279
+msgid "<Reserved 115>"
+msgstr "<რეზერვირებული 115>"
+
+#: sources/insnames.cc:280
+msgid "<Reserved 116>"
+msgstr "<რეზერვირებული 116>"
+
+#: sources/insnames.cc:281
+msgid "<Reserved 117>"
+msgstr "<რეზერვირებული 117>"
+
+#: sources/insnames.cc:282
+msgid "<Reserved 118>"
+msgstr "<რეზერვირებული 118>"
+
+#: sources/insnames.cc:283
+msgid "<Reserved 119>"
+msgstr "<რეზერვირებული 119>"
+
+#: sources/insnames.cc:284
+msgid "<Reserved 120>"
+msgstr "<რეზერვირებული 120>"
+
+#: sources/insnames.cc:285
+msgid "<Reserved 121>"
+msgstr "<რეზერვირებული 121>"
+
+#: sources/insnames.cc:286
+msgid "<Reserved 122>"
+msgstr "<რეზერვირებული 122>"
+
+#: sources/insnames.cc:287
+msgid "<Reserved 123>"
+msgstr "<რეზერვირებული 123>"
+
+#: sources/insnames.cc:288
+msgid "<Reserved 124>"
+msgstr "<რეზერვირებული 124>"
+
+#: sources/insnames.cc:289
+msgid "<Reserved 125>"
+msgstr "<რეზერვირებული 125>"
+
+#: sources/insnames.cc:290
+msgid "<Reserved 126>"
+msgstr "<რეზერვირებული 126>"
+
+#: sources/insnames.cc:291
+msgid "<Reserved 127>"
+msgstr "<რეზერვირებული 127>"
