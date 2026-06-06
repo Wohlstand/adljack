@@ -166,6 +166,7 @@ int audio_main()
     ctx.audio_client = &audio_client;
     RtMidiIn midi_client(::arg_midi_api, "ADLrt", midi_buffer_size);
     ctx.midi_client = &midi_client;
+    midi_client.ignoreTypes(false, false, false);
 
     unsigned num_audio_devices = audio_client.getDeviceCount();
     if (num_audio_devices == 0) {

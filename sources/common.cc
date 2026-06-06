@@ -297,7 +297,7 @@ void play_midi(const uint8_t *msg, unsigned len)
         return;
 
     uint8_t status = msg[0];
-    if (status == 0xf0)
+    if (status == 0xf0 || status == 0xf7)
         return play_sysex(msg, len);
 
     uint8_t channel = status & 0x0f;
@@ -366,6 +366,7 @@ void play_midi(const uint8_t *msg, unsigned len)
     }
 }
 
+#if 0 // Junk!
 static void play_roland_sysex(unsigned address, const uint8_t *data, unsigned len)
 {
     switch (address) {
@@ -379,6 +380,7 @@ static void play_roland_sc_sysex(unsigned address, const uint8_t *data, unsigned
         notify(Notify_TextInsert, data, (len < 256) ? len : 256); break;
     }
 }
+#endif
 
 void play_sysex(const uint8_t *msg, unsigned len)
 {
@@ -387,6 +389,9 @@ void play_sysex(const uint8_t *msg, unsigned len)
         return;
 
     Player &player = active_player();
+    player.rt_system_exclusive(msg, len);
+
+#if 0 // Junk!
     uint8_t manufacturer = msg[1];
     switch (manufacturer) {
         case 0x7f: // Universal realtime
@@ -413,6 +418,7 @@ void play_sysex(const uint8_t *msg, unsigned len)
             }
             break;
     }
+#endif
 }
 
 bool notify(Notification_Type type, const uint8_t *data, unsigned len)
