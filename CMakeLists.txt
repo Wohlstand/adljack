@@ -1,4 +1,4 @@
-cmake_minimum_required(VERSION 3.5)
+cmake_minimum_required(VERSION 3.5...4.0)
 cmake_policy(SET CMP0048 NEW)
 
 project(ADLjack VERSION "1.3.1" LANGUAGES C CXX)
@@ -336,13 +336,19 @@ endif()
 
 ## Translations
 if(ENABLE_GETTEXT)
-  set(TRANSLATIONS "fr ka")
+  set(TRANSLATIONS "fr;ka")
   foreach(translation ${TRANSLATIONS})
-    gettext_process_po_files("${translation}" ALL INSTALL_DESTINATION "share/locale" PO_FILES
-      "po/${translation}/adljack.po"
-      "po/${translation}/adljack_inst.po"
-      "po/${translation}/adljack_perc.po"
-      "po/${translation}/adljack_ex.po")
+    message("--- LANGUAGE: ${translation}")
+    GETTEXT_PROCESS_PO_FILES(
+      ${translation}
+      ALL
+      PO_FILES
+        "po/${translation}/adljack_${translation}.po"
+        "po/${translation}/adljack_inst_${translation}.po"
+        "po/${translation}/adljack_perc_${translation}.po"
+        "po/${translation}/adljack_ex_${translation}.po"
+      INSTALL_DESTINATION "share/locale"
+    )
   endforeach()
 endif()
 
