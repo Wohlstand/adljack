@@ -216,8 +216,14 @@ bool initialize_player(Player_Type pt, unsigned sample_rate, unsigned nchip, con
         }
         else if (!player_bank_file[i].empty() && !::player[i]->load_bank_file(player_bank_file[i].c_str()))
         {
-            qfprintf(quiet, stderr, "%s\n", _("Error loading saved bank file for player."));
-            return 1;
+            qfprintf(quiet, stderr, "%s\n", _("Error loading saved bank file for player. Falling back to default"));
+            player_bank_file[i].clear();
+
+            if (pt == Player_Type::OPL3)
+                ::player_opl_embedded_bank_id = 0;
+
+            if (!player->set_embedded_bank(0))
+                qfprintf(quiet, stderr, "%s\n", _("Error falling back to default bank."));
         }
     }
 
