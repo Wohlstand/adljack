@@ -345,7 +345,7 @@ static int print_bar(
 static void update_display(TUI_context &ctx)
 {
     Player *player = ctx.player;
-    if (player->isBusy()) {
+    if (!player || player->isBusy()) {
         return; // Do nothing
     }
 

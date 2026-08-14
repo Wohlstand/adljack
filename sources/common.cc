@@ -483,11 +483,11 @@ void generate_outputs(float *left, float *right, unsigned nframes, unsigned stri
     double d_sec = 1e-6 * stc::duration_cast<stc::microseconds>(d_gen).count();
     ::cpuratio = d_sec / ((double)nframes / player.sample_rate());
 
-    if (::channels_update_left > nframes)
+    if(::channels_update_left > nframes)
         ::channels_update_left -= nframes;
-    else {
-        ::channels_update_left = ::channels_update_frames -
-            (nframes - ::channels_update_left) % ::channels_update_frames;
+    else if(::channels_update_left > 0)
+    {
+        ::channels_update_left = ::channels_update_frames - (nframes - ::channels_update_left) % ::channels_update_frames;
 
         char buf[2 * (player_max_chips * player_max_channels + 1)];
         char *text = buf;
